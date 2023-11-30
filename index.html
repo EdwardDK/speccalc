@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2R9G65GXE5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2R9G65GXE5');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scientific Calculator Online</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/Awj5gG8.png">
+
 <script>
+    // var html = document.getElementsByTagName('html')[0];
+    // var body = document.getElementsByTagName('body')[0];
+    //
+    // function check(){
+    //     let arr=['logan','nate'];
+    //
+    //     let name=prompt("What is your name?");
+    //     // Get the name from local storage
+    //      let double=localStorage.setItem('name', name);
+    //
+    //     // If the name is not in the list
+    //     if (!arr.includes(name)) {
+    //         // Prompt the user for their name
+    //         localStorage.setItem("name", name);
+    //         document.body.innerHTML = ' s';
+    //
+    //         // If the name is not in the list
+    //
+    //     } else {
+    //         alert("Welcome, " + name);
+    //     }
+    //     }
+    //
+    //
+    // check()
+
 
 
     function create() {
@@ -32,7 +67,7 @@
 <body>
 <div class="container">
     <form class="calculator" name="calc">
-        <input type="text" readonly class="value" name="txt"/>
+        <input type="text" readonly class="value"  onclick="create()" name="txt"/>
         <span class="num clear" onclick="calc.txt.value=''">c</span>
         <span class="num" onclick="document.calc.txt.value +='/'">/</span>
         <span class="num" onclick="document.calc.txt.value +='*'">*</span>
