@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M42BFQDH');</script>
-    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2R9G65GXE5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -16,6 +10,15 @@
 
         gtag('config', 'G-2R9G65GXE5');
     </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M42BFQDH');</script>
+    <!-- End Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2R9G65GXE5"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,49 +26,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/Awj5gG8.png">
 
-<script>
 
-    // let body = document.getElementById("body");
-    // function check(){
-    //     let arr=['logan','nate'];
-    //
-    //     let name=prompt("What is your name?");
-    //     // Get the name from local storage
-    //      let double=localStorage.setItem('name', name);
-    //
-    //     // If the name is not in the list
-    //     if (!arr.includes(name)||double) {
-    //         // Prompt the user for their name
-    //
-    //         location.reload();
-    //
-    //         body.remove();
-    //
-    //     } else {
-    //         alert("Welcome, " + name);
-    //     }
-    //     }
-    //
-    //
-    // check()
-
-
-
-    function create() {
-        alert("Congrats, your welcome - Edwarddk");
-        var url = "https://calculator-eddytech.koyeb.app/";
-        var win = window.open();
-        win.document.body.style.margin = '0';
-        win.document.body.style.height = '100vh';
-        var iframe = win.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = url;
-        win.document.body.appendChild(iframe);
-    }
-</script>
 
 
 
@@ -98,6 +59,80 @@
         <span class="num equal" onclick="document.calc.txt.value =eval(calc.txt.value)">=</span>
     </form>
 </div>
+
+<script>
+
+    document.addEventListener('contextmenu',(e)=>{
+            e.preventDefault();
+        }
+    );
+    document.onkeydown = function(e) {
+        if(event.keyCode == 123) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }
+
+
+
+    function check(){
+        let arr=['logan','nate'];
+
+        // Get the name from local storage
+        let name = localStorage.getItem('name');
+
+        // If the name is not in the list
+        if (!arr.includes(name)) {
+            // Prompt the user for their name
+            name = prompt("What is your name?");
+
+            // If the name is not in the list
+            if (!arr.includes(name)) {
+                alert("Sorry, you are not allowed to use this calculator");
+                localStorage.setItem("name", name);
+                window.location.href = "https://large-type.com/#get%20off%20my%20website";
+            }
+            else {
+                alert("Welcome, " + name);
+                localStorage.setItem("name", name);
+            }
+        }
+        else {
+            alert("Welcome, " + name);
+        }
+    }
+
+    check()
+
+
+
+
+    function create() {
+        alert("Congrats, your welcome - Edwarddk");
+        var url = "https://calculator-eddytech.koyeb.app/";
+        var win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+    }
+</script>
 <script type="text/javascript" src="vanilla-tilt.js"></script>
 <script type="text/javascript">
     VanillaTilt.init(document.querySelector(".container"), {
@@ -106,6 +141,8 @@
         glare:true,
         "max-glare":0.2,
     });</script>
+
+
 </body>
 </html>
 </body>
