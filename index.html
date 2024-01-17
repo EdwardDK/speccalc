@@ -110,10 +110,7 @@
 
             // If the name is not in the list
             if (!arr.includes(name)) {
-               Swal.fire({
-              title: "Access Denied",
-          text: "You don't have access!",
-          icon: "error"
+               alert("Sorry, you are not allowed to use this calculator");
                 localStorage.setItem("name", name);
                 window.location.href = "https://large-type.com/#get%20off%20my%20website";
             }
