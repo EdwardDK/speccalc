@@ -125,8 +125,12 @@
             }
         }
         else {
-            alert("Welcome, " + name);
-        }
+                alert("Welcome, " + name);
+                Swal.fire({
+              title: "Welcome!",
+          text: "You may proceed"+' '+name,
+          icon: "success"
+});
     }
 
     check()
