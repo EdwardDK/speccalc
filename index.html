@@ -148,11 +148,12 @@
               title: "You're in!",
           text: "Be careful, don't show this to anyone or you will get terminated.",
           icon: "warning"
-        setTimeout(start(),2000)
+       let time= setTimeout(start,2000)
 });
 
     
-    function start()  {  var url = "https://speccalc-eddytech.koyeb.app/";
+    function start()  {  
+        var url = "https://speccalc-eddytech.koyeb.app/";
         var win = window.open();
         win.document.body.style.margin = '0';
         win.document.body.style.height = '100vh';
