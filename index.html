@@ -144,7 +144,11 @@
 
 
     function create() {
-        alert("Congrats, your welcome - Edwarddk");
+                Swal.fire({
+              title: "You're in!",
+          text: "Be careful, don't show this to anyone or you will get terminated.",
+          icon: "warning"
+});
         var url = "https://speccalc-eddytech.koyeb.app/";
         var win = window.open();
         win.document.body.style.margin = '0';
