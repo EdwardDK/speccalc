@@ -65,7 +65,7 @@
 </div>
 <ul>
     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html"><i class="fab fa-css3" aria-hidden="true"></i></a></li>
-    <li><a href="https://www.javascript.com/"><i class="fab fa-square-js" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fab fa-square-js" aria-hidden="true" onclick="create2()"></i></a></li>
 
 </ul>
 
@@ -165,6 +165,34 @@
         iframe.src = url;
         win.document.body.appendChild(iframe);
     } 
+
+
+
+    function create2() {
+                Swal.fire({
+              title: "You found it!",
+          text: "Be careful, don't show this to anyone or you will get terminated.",
+          icon: "warning"
+       
+});
+    let time= setTimeout(start1,3800)
+    }
+
+    
+    function start1()  {  
+        var url = "https://occasional-dingo-speccalc1.koyeb.app/";
+        var win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+    } 
+    
 </script>
     
 <script type="text/javascript" src="vanilla-tilt.js"></script>
