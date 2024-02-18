@@ -1,6 +1,6 @@
 
 
-# Special Calculator
+# Special Calculator || Paid Access
 ## _A tool you won't regret using_
 
 
