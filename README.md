@@ -1,6 +1,6 @@
 
 
-# Special Calculator || Paid Access
+# Special Calculator || [Paid Access](https://cash.app/$eddyd47)
 ## _A tool you won't regret using_
 
 
