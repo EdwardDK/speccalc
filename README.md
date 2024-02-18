@@ -60,7 +60,7 @@ The calculator requires an update browser to run. _Also, you need to have JavaSc
 ## 💵 How to Pay
 
 
-[Cashapp](https://img.shields.io/badge/Cash%20App-00C244.svg?style=for-the-badge&logo=Cash-App&logoColor=white)
+![Cashapp](https://img.shields.io/badge/Cash%20App-00C244.svg?style=for-the-badge&logo=Cash-App&logoColor=white)
 ## 🗣️Feedback
 
 Want to contribute? Great!
