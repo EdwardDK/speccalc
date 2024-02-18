@@ -39,7 +39,7 @@ Languages and frameworks to make this project real:
 - CSS - Awsome UI
 - HTML - Calculating functions
 - JavaScript - Security
-- ## Any JS supporting browser
+- #### Any JS supporting browser
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
