@@ -39,6 +39,7 @@ Languages and frameworks to make this project real:
 - CSS - Awsome UI
 - HTML - Calculating functions
 - JavaScript - Security
+- ## Any JS supporting browser
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -48,7 +49,7 @@ Languages and frameworks to make this project real:
 
 ## 💾 How to Use
 
-The calculator requires an update browser to run
+The calculator requires an update browser to run. Also, you need to have JavaScript enabled.
 
 [Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop) v120+ to run.
 
@@ -66,3 +67,7 @@ Message on discord to ``` .eddy47```
 Email ```edwarddoubovik42@gmail.com```
 
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) ![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
+
+## 🌍 Compatible Browsers
+
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)  ![Brave](https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white) ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white) ![Opera](https://img.shields.io/badge/Opera-FF1B2D?style=for-the-badge&logo=Opera&logoColor=white)
