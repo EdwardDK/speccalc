@@ -1,6 +1,6 @@
 
 
-# Special Calculator || [Paid Access](https://cash.app/$eddyd47)
+# Special Calculator || [Paid Access](https://discord.gg/TjCM2untHc)
 ## _A tool you won't regret using_
 
 
@@ -31,6 +31,13 @@ powered with VanillaJS and CSS.
 > while you enjoy a seamless, 
 > user-friendly experience.
 
+## 💵 How to Pay
+
+You can buy this calculator from me by sending ```$15``` on CashApp
+Also, you can join the [Discord](https://discord.gg/TjCM2untHc) server and pay me from there.
+
+![Cashapp](https://img.shields.io/badge/Cash%20App-00C244.svg?style=for-the-badge&logo=Cash-App&logoColor=white)
+
 ## ⌨️ Tech
 
 Languages and frameworks to make this project real:
@@ -51,16 +58,12 @@ Languages and frameworks to make this project real:
 
 The calculator requires an update browser to run. _Also, you need to have JavaScript enabled._
 
-[Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop) v120+ to run.
+[Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop) v120+ to run
 
 [Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ&ranMID=24542&ranEAID=a1LgFw09t88&ranSiteID=a1LgFw09t88-ijH2xOHONrR2_atqawKtOw&epi=a1LgFw09t88-ijH2xOHONrR2_atqawKtOw&irgwc=1&OCID=AIDcmm549zy227_aff_7593_1243925&tduid=%28ir__9wuswqrfn0kfdhjxjfn0139r3u2x9vxt3csl6yb000%29%287593%29%281243925%29%28a1LgFw09t88-ijH2xOHONrR2_atqawKtOw%29%28%29&irclickid=_9wuswqrfn0kfdhjxjfn0139r3u2x9vxt3csl6yb000) v121+ to run
 
-[Firefox](https://www.mozilla.org/en-US/firefox/new/) v122+ to rn
+[Firefox](https://www.mozilla.org/en-US/firefox/new/) v122+ to run
 
-## 💵 How to Pay
-
-
-![Cashapp](https://img.shields.io/badge/Cash%20App-00C244.svg?style=for-the-badge&logo=Cash-App&logoColor=white)
 ## 🗣️Feedback
 
 Want to contribute? Great!
