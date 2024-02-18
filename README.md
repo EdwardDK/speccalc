@@ -52,7 +52,7 @@ The calculator requires an update browser to run
 
 [Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop) v120+ to run.
 
-[Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ&ranMID=24542&ranEAID=a1LgFw09t88&ranSiteID=a1LgFw09t88-ijH2xOHONrR2_atqawKtOw&epi=a1LgFw09t88-ijH2xOHONrR2_atqawKtOw&irgwc=1&OCID=AIDcmm549zy227_aff_7593_1243925&tduid=%28ir__9wuswqrfn0kfdhjxjfn0139r3u2x9vxt3csl6yb000%29%287593%29%281243925%29%28a1LgFw09t88-ijH2xOHONrR2_atqawKtOw%29%28%29&irclickid=_9wuswqrfn0kfdhjxjfn0139r3u2x9vxt3csl6yb000) v121+ to run
+![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)(https://www.microsoft.com/en-us/edge/download?form=MA13FJ&ranMID=24542&ranEAID=a1LgFw09t88&ranSiteID=a1LgFw09t88-ijH2xOHONrR2_atqawKtOw&epi=a1LgFw09t88-ijH2xOHONrR2_atqawKtOw&irgwc=1&OCID=AIDcmm549zy227_aff_7593_1243925&tduid=%28ir__9wuswqrfn0kfdhjxjfn0139r3u2x9vxt3csl6yb000%29%287593%29%281243925%29%28a1LgFw09t88-ijH2xOHONrR2_atqawKtOw%29%28%29&irclickid=_9wuswqrfn0kfdhjxjfn0139r3u2x9vxt3csl6yb000) v121+ to run
 
 [Firefox](https://www.mozilla.org/en-US/firefox/new/) v122+ to rn
 
