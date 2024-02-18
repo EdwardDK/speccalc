@@ -49,7 +49,7 @@ Languages and frameworks to make this project real:
 
 ## 💾 How to Use
 
-The calculator requires an update browser to run. Also, you need to have JavaScript enabled.
+The calculator requires an update browser to run. _Also, you need to have JavaScript enabled._
 
 [Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop) v120+ to run.
 
