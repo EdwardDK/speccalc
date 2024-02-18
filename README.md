@@ -35,8 +35,8 @@ powered with VanillaJS and CSS.
 
 You can buy this calculator from me by sending ```$15``` on CashApp <br><br>
 You can join the [Discord](https://discord.gg/TjCM2untHc) server and pay me from there. <br><br>
-**You can pay in fortnite gifts and giftcards for games, visa, etc.**<br>
-**[Cashapp](https://cash.app/$EddyD47)**<br><br>
+> **You can pay in fortnite gifts and giftcards for games, visa, etc.**<br><br>
+> **[Cashapp](https://cash.app/$EddyD47)**<br><br>
 **[Discord Server](https://discord.gg/TjCM2untHc)**<br><br>
 ![Cashapp](https://img.shields.io/badge/Cash%20App-00C244.svg?style=for-the-badge&logo=Cash-App&logoColor=white)
 
