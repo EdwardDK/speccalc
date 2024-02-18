@@ -33,12 +33,11 @@ powered with VanillaJS and CSS.
 
 ## 💵 How to Pay
 
-You can buy this calculator from me by sending ```$15``` on CashApp <br>
-You can join the [Discord](https://discord.gg/TjCM2untHc) server and pay me from there. <br>
+You can buy this calculator from me by sending ```$15``` on CashApp <br><br>
+You can join the [Discord](https://discord.gg/TjCM2untHc) server and pay me from there. <br><br>
 **You can pay in fortnite gifts and giftcards for games, visa, etc.**
 -[cashapp](https://cash.app/$EddyD47)
 -[Discord Server](https://discord.gg/TjCM2untHc)
--[]
 ![Cashapp](https://img.shields.io/badge/Cash%20App-00C244.svg?style=for-the-badge&logo=Cash-App&logoColor=white)
 
 ## ⌨️ Tech
