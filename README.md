@@ -52,7 +52,7 @@ The calculator requires an update browser to run
 
 [Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop) v120+ to run.
 
-![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white) v121+ to run
+![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)   v121+ to run
 
 [Firefox](https://www.mozilla.org/en-US/firefox/new/) v122+ to rn
 
