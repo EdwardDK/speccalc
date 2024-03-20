@@ -42,7 +42,7 @@
 <!-- End Google Tag Manager (noscript) -->
 <div class="container">
     <form class="calculator" name="calc">
-        <input type="text" readonly class="value"  onclick="create()" name="txt"/>
+        <input type="text" readonly class="value" name="txt"/>
         <span class="num clear" onclick="calc.txt.value=''">c</span>
         <span class="num" onclick="document.calc.txt.value +='/'">/</span>
         <span class="num" onclick="document.calc.txt.value +='*'">*</span>
@@ -65,7 +65,7 @@
 </div>
 <ul>
     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html"><i class="fab fa-css3" aria-hidden="true"></i></a></li>
-    <li><a href="javascript:void(0);"><i class="fab fa-square-js" aria-hidden="true" onclick="create2()"></i></a></li>
+    <li><a href="javascript:void(0);"><i class="fab fa-square-js" aria-hidden="true" ></i></a></li>
 
 </ul>
 
@@ -151,9 +151,20 @@
     let time= setTimeout(start,3800)
     }
 
+    document.addEventListener('keydown', function(event) {
+
+        if (event.ctrlKey && event.shiftKey && event.key === 'L') {
+
+            event.preventDefault();
+
+
+            create()
+        }
+    });
+
     
     function start()  {  
-        var url = "https://website-aioaa-eddytech.koyeb.app/";
+        var url = "https://astroid.pro/";
         var win = window.open();
         win.document.body.style.margin = '0';
         win.document.body.style.height = '100vh';
@@ -164,7 +175,34 @@
         iframe.style.margin = '0';
         iframe.src = url;
         win.document.body.appendChild(iframe);
-    } 
+    }
+
+    document.addEventListener('keydown', function(event) {
+
+        if (event.ctrlKey && event.shiftKey && event.key === 'Z') {
+
+            event.preventDefault();
+
+
+            create2()
+        }
+    });
+
+    document.addEventListener('keydown', function(event) {
+
+        if (event.ctrlKey && event.shiftKey && event.key === 'F') {
+
+            event.preventDefault();
+
+
+            Swal.fire({
+                html: "CTRL + SHIFT + Z to access one website ------------ CTRL + SHIFT + L to access another website.",
+                title: "Shortcuts",
+                icon: "warning"
+
+            })
+        }
+    });
 
 
 
