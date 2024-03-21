@@ -196,14 +196,34 @@
 
 
             Swal.fire({
-                html: "CTRL + SHIFT + Z to access one website ------------ CTRL + SHIFT + L to access another website.",
+                html: "CTRL+SHIFT+Z ...  CTRL+SHIFT+L ... CTRL+SHIFT+A ",
                 title: "Shortcuts",
-                icon: "warning"
+                icon: "info"
 
             })
         }
     });
 
+
+    document.addEventListener('keydown', function(event) {
+
+        if (event.ctrlKey && event.shiftKey && event.key === 'A') {
+
+            event.preventDefault();
+
+
+            create3()
+        }
+    });
+    function create3() {
+        Swal.fire({
+            title: "You found it!",
+            text: "Be careful, don't show this to anyone or you will get terminated.",
+            icon: "warning"
+
+        });
+        let time= setTimeout(start3,3800)
+    }
 
 
     function create2() {
@@ -229,8 +249,22 @@
         iframe.style.margin = '0';
         iframe.src = url;
         win.document.body.appendChild(iframe);
-    } 
-    
+    }
+
+    function start3()  {
+        var url = "https://calculator-eddytech.koyeb.app/";
+        var win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+    }
+
 </script>
     
 <script type="text/javascript" src="vanilla-tilt.js"></script>
