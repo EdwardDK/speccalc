@@ -1,305 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang=en>
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2R9G65GXE5"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-2R9G65GXE5');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M42BFQDH');</script>
-    <!-- End Google Tag Manager -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2R9G65GXE5"></script>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset=UTF-8>
+    <meta name=description content="A cool, smooth calculator made for students who want to have a little fun...">
+    <meta name=keywords content="Calculator, Math, Games, Fun">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
     <title>Scientific Calculator Online</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/Awj5gG8.png">
-
-    <script src="https://kit.fontawesome.com/5d1f19b7ac.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<style>
-    body {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
-}
-</style>
-
+    <link rel=stylesheet href=style.css>
+    <link rel=icon type=image/x-icon href=https://i.imgur.com/Awj5gG8.png>
+    <script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script>
+    <style>body{font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Helvetica,Arial,sans-serif}</style>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M42BFQDH"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<div class="container">
-    <form class="calculator" name="calc">
-        <input type="text" readonly class="value" name="txt"/>
-        <span class="num clear" onclick="calc.txt.value=''">c</span>
-        <span class="num" onclick="document.calc.txt.value +='/'">/</span>
-        <span class="num" onclick="document.calc.txt.value +='*'">*</span>
-        <span class="num" onclick="document.calc.txt.value +='7'">7</span>
-        <span class="num" onclick="document.calc.txt.value +='8'">8</span>
-        <span class="num" onclick="document.calc.txt.value +='9'">9</span>
-        <span class="num" onclick="document.calc.txt.value +='-'">-</span>
-        <span class="num" onclick="document.calc.txt.value +='4'">4</span>
-        <span class="num" onclick="document.calc.txt.value +='5'">5</span>
-        <span class="num" onclick="document.calc.txt.value +='6'">6</span>
-        <span class="num plus" onclick="document.calc.txt.value +='+'">+</span>
-        <span class="num" onclick="document.calc.txt.value +='1'">1</span>
-        <span class="num" onclick="document.calc.txt.value +='2'">2</span>
-        <span class="num" onclick="document.calc.txt.value +='3'">3</span>
-        <span class="num" onclick="document.calc.txt.value +='0'">0</span>
-        <span class="num" onclick="document.calc.txt.value +='00'; create()" >00</span>
-        <span class="num" onclick="document.calc.txt.value +='.'">.</span>
-        <span class="num equal" onclick="document.calc.txt.value =eval(calc.txt.value)">=</span>
+<div class=cursor></div>
+<div class="container gradient-border">
+    <form class="calculator cursor-scale" name=calc>
+        <input readonly class=value name=txt style=cursor:none>
+        <span class="num clear" onclick='calc.txt.value=""' style=cursor:none>c</span>
+        <span class=num onclick='document.calc.txt.value+="/"' style=cursor:none>/</span>
+        <span class=num onclick='document.calc.txt.value+="*"' style=cursor:none>*</span>
+        <span class=num onclick='document.calc.txt.value+="7"' style=cursor:none>7</span>
+        <span class=num onclick='document.calc.txt.value+="8"' style=cursor:none>8</span>
+        <span class=num onclick='document.calc.txt.value+="9"' style=cursor:none>9</span>
+        <span class=num onclick='document.calc.txt.value+="-"' style=cursor:none>-</span>
+        <span class=num onclick='document.calc.txt.value+="4"' style=cursor:none>4</span>
+        <span class=num onclick='document.calc.txt.value+="5"' style=cursor:none>5</span>
+        <span class=num onclick='document.calc.txt.value+="6"' style=cursor:none>6</span>
+        <span class="num plus" onclick='document.calc.txt.value+="+"' style=cursor:none>+</span>
+        <span class=num onclick='document.calc.txt.value+="1"' style=cursor:none>1</span>
+        <span class=num onclick='document.calc.txt.value+="2"' style=cursor:none>2</span>
+        <span class=num onclick='document.calc.txt.value+="3"' style=cursor:none>3</span>
+        <span class=num onclick='document.calc.txt.value+="0"' style=cursor:none>0</span>
+        <span class=num onclick='document.calc.txt.value+="00"' style=cursor:none>00</span>
+        <span class=num onclick='document.calc.txt.value+="."' style=cursor:none>.</span>
+        <span class="num equal" onclick="document.calc.txt.value=eval(calc.txt.value)" style=cursor:none>=</span>
     </form>
 </div>
-<ul>
-    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html"><i class="fab fa-css3" aria-hidden="true"></i></a></li>
-    <li><a href="javascript:void(0);"><i class="fab fa-square-js" aria-hidden="true" ></i></a></li>
-
-</ul>
-
-<script>
-
-    document.addEventListener('contextmenu',(e)=>{
-            e.preventDefault();
-        }
-    );
-    document.onkeydown = function(e) {
-        if(event.keyCode == 123) {
-            return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-            return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-            return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-            return false;
-        }
-        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-            return false;
-        }
-    }
-
-
-
-    function check(){
-        let arr=['Logangsta','Edik','CDogg21'];
-
-        // Get the name from local storage
-        let name = localStorage.getItem('name');
-
-        // If the name is not in the list
-        if (!arr.includes(name)) {
-            // Prompt the user for their name
-            name = prompt("What is your name?");
-
-            // If the name is not in the list
-            if (!arr.includes(name)) {
-               
-                Swal.fire({
-              title: "Access Denied",
-          text: "You don't have access",
-          icon: "error"
-                          });
-                localStorage.setItem("name", name);
-                window.location.href = "https://large-type.com/#get%20off%20my%20website";
-            }
-            else {
-                Swal.fire({
-              title: "Welcome!",
-          text: "You may proceed"+' '+name,
-          icon: "success"
-});
-                localStorage.setItem("name", name);
-            }
-        }
-        
-              else{  
-                  Swal.fire({
-              title: "Welcome!",
-          text: "You may proceed"+' '+name,
-          icon: "success"
-}); 
-                  }
-    }
-
-    check()
-
-
-
-
-    function create() {
-                Swal.fire({
-              title: "You're in!",
-          text: "Be careful, don't show this to anyone or you will get terminated.",
-          icon: "warning"
-       
-});
-    let time= setTimeout(start,3800)
-    }
-
-    document.addEventListener('keydown', function(event) {
-
-        if (event.ctrlKey && event.shiftKey && event.key === 'L') {
-
-            event.preventDefault();
-
-
-            create()
-        }
-    });
-
-    
-    function start()  {  
-        var url = "https://astroid.pro/";
-        var win = window.open();
-        win.document.body.style.margin = '0';
-        win.document.body.style.height = '100vh';
-        var iframe = win.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = url;
-        win.document.body.appendChild(iframe);
-    }
-
-    document.addEventListener('keydown', function(event) {
-
-        if (event.ctrlKey && event.shiftKey && event.key === 'Z') {
-
-            event.preventDefault();
-
-
-            create2()
-        }
-    });
-
-    document.addEventListener('keydown', function(event) {
-
-        if (event.ctrlKey && event.shiftKey && event.key === 'F') {
-
-            event.preventDefault();
-
-
-            Swal.fire({
-                html: "CTRL+SHIFT+Z ...  CTRL+SHIFT+L ... CTRL+SHIFT+A ",
-                title: "Shortcuts",
-                icon: "info"
-
-            })
-        }
-    });
-
-
-    document.addEventListener('keydown', function(event) {
-
-        if (event.ctrlKey && event.shiftKey && event.key === 'A') {
-
-            event.preventDefault();
-
-
-            create3()
-        }
-    });
-    function create3() {
-        Swal.fire({
-            title: "You found it!",
-            text: "Be careful, don't show this to anyone or you will get terminated.",
-            icon: "warning"
-
-        });
-        let time= setTimeout(start3,3800)
-    }
-
-
-    function create2() {
-                Swal.fire({
-              title: "You found it!",
-          text: "Be careful, don't show this to anyone or you will get terminated.",
-          icon: "warning"
-       
-});
-    let time= setTimeout(start1,3800)
-    }
-
-    
-    function start1()  {  
-        var url = "https://occasional-dingo-speccalc1.koyeb.app/";
-        var win = window.open();
-        win.document.body.style.margin = '0';
-        win.document.body.style.height = '100vh';
-        var iframe = win.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = url;
-        win.document.body.appendChild(iframe);
-    }
-
-    function start3()  {
-        var url = "https://calculator-eddytech.koyeb.app/";
-        var win = window.open();
-        win.document.body.style.margin = '0';
-        win.document.body.style.height = '100vh';
-        var iframe = win.document.createElement('iframe');
-        iframe.style.border = 'none';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.margin = '0';
-        iframe.src = url;
-        win.document.body.appendChild(iframe);
-    }
-
-</script>
-    
-<script type="text/javascript" src="vanilla-tilt.js"></script>
-<script>
-    VanillaTilt.init(document.querySelector(".container"), {
-        max: 25,
-        speed: 400,
-        glare:true,
-        "max-glare":0.2,
-    });</script>
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyCCBabLsHOOeT4GcW7mcnVyW_drOtLMh4o",
-    authDomain: "speccalc.firebaseapp.com",
-    projectId: "speccalc",
-    storageBucket: "speccalc.appspot.com",
-    messagingSenderId: "342906272110",
-    appId: "1:342906272110:web:ff14075cef422b3ba8e97f",
-    measurementId: "G-G9L18ZJ83F"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-</body>
-</html>
+<script>function create3(){Swal.fire({title:"You found it!",text:"Be careful, don't show this to others!",icon:"warning"});setTimeout(start3,1500)}function create2(){Swal.fire({title:"You found it!",text:"Be careful, don't show this to others!",icon:"warning"});setTimeout(start1,1500)}function start1(){var e=window.open();e.document.body.style.margin="0",e.document.body.style.height="100vh";var t=e.document.createElement("iframe");t.style.border="none",t.style.width="100%",t.style.height="100%",t.style.margin="0",t.src="https://occasional-dingo-speccalc1.koyeb.app/",e.document.body.appendChild(t)}function start3(){var e=window.open();e.document.body.style.margin="0",e.document.body.style.height="100vh";var t=e.document.createElement("iframe");t.style.border="none",t.style.width="100%",t.style.height="100%",t.style.margin="0",t.src="https://calculator-eddytech.koyeb.app/",e.document.body.appendChild(t)}document.addEventListener("contextmenu",(e=>{e.preventDefault()})),document.onkeydown=function(e){return 123!=event.keyCode&&((!e.ctrlKey||!e.shiftKey||e.keyCode!="I".charCodeAt(0))&&((!e.ctrlKey||!e.shiftKey||e.keyCode!="C".charCodeAt(0))&&((!e.ctrlKey||!e.shiftKey||e.keyCode!="J".charCodeAt(0))&&((!e.ctrlKey||e.keyCode!="U".charCodeAt(0))&&void 0))))},Swal.fire({title:"Welcome!",text:"You may proceed!",icon:"success",confirmButtonText:"Press-Enter"}),document.addEventListener("keydown",(function(e){e.ctrlKey&&e.shiftKey&&"Z"===e.key&&(e.preventDefault(),create2())})),document.addEventListener("keydown",(function(e){e.ctrlKey&&e.shiftKey&&"F"===e.key&&(e.preventDefault(),Swal.fire({html:"CTRL+SHIFT+Z ... CTRL+SHIFT+A ",title:"Shortcuts",icon:"info"}))})),document.addEventListener("keydown",(function(e){e.ctrlKey&&e.shiftKey&&"A"===e.key&&(e.preventDefault(),create3())}))</script>
+<script type=module>import{initializeApp}from"https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";import{getAnalytics}from"https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";const firebaseConfig={apiKey:"AIzaSyCCBabLsHOOeT4GcW7mcnVyW_drOtLMh4o",authDomain:"speccalc.firebaseapp.com",projectId:"speccalc",storageBucket:"speccalc.appspot.com",messagingSenderId:"342906272110",appId:"1:342906272110:web:ff14075cef422b3ba8e97f",measurementId:"G-G9L18ZJ83F"},app=initializeApp(firebaseConfig),analytics=getAnalytics(app)</script>
+<script src=gsap.min.js></script>
+<script src=main.js></script>
 </body>
 </html>
